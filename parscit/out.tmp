@@ -1,0 +1,442 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<algorithms version="110505">
+<algorithm name="ParsCit" version="110505">
+<citationList>
+<citation valid="true">
+<authors>
+<author>L C Freeman</author>
+</authors>
+<date>1992</date>
+<journal>American Journal of Sociology</journal>
+<volume>98</volume>
+<pages>152</pages>
+<contexts>
+<context position="1262" citStr="[1]" startWordPosition="204" endWordPosition="204">sets. PACS numbers: I. INTRODUCTION Many systems can be represented by networks where nodes denote entities and links denote existing relation between nodes, such systems may include the web networks [1], the biological networks [2], ecological web [3] and social organization networks [4]. Many interesting properties have also been identified in these networks such as small world[5] and power law dis</context>
+</contexts>
+<marker>[1]</marker>
+<rawString>L. C. Freeman, American Journal of Sociology 98, 152 (1992).</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>H LH</author>
+<author>H JJ</author>
+<author>L S</author>
+<author>M AW</author>
+</authors>
+<date>1999</date>
+<journal>Nature</journal>
+<volume>402</volume>
+<pages>6761</pages>
+<contexts>
+<context position="1291" citStr="[2]" startWordPosition="208" endWordPosition="208">UCTION Many systems can be represented by networks where nodes denote entities and links denote existing relation between nodes, such systems may include the web networks [1], the biological networks [2], ecological web [3] and social organization networks [4]. Many interesting properties have also been identified in these networks such as small world[5] and power law distribution [6], one property t</context>
+</contexts>
+<marker>[2]</marker>
+<rawString>H. LH, H. JJ, L. S, and M. AW., Nature 402, 6761 (1999).</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>D Lusseau</author>
+<author>K Schneider</author>
+<author>O J Boisseau</author>
+<author>P Haase</author>
+<author>E Slooten</author>
+<author>S M Dawson</author>
+</authors>
+<date>2003</date>
+<journal>Behavioral Ecology and Sociobiology</journal>
+<volume>54</volume>
+<pages>396</pages>
+<contexts>
+<context position="1311" citStr="[3]" startWordPosition="211" endWordPosition="211">can be represented by networks where nodes denote entities and links denote existing relation between nodes, such systems may include the web networks [1], the biological networks [2], ecological web [3] and social organization networks [4]. Many interesting properties have also been identified in these networks such as small world[5] and power law distribution [6], one property that attracts much at</context>
+<context position="24671" citStr="[3]" startWordPosition="4597" endWordPosition="4597">in the definition of Q and this may cause problem in some networks [17, 18]. Such networks include those whose communities vary in size and degree sequence. Dolphin social network reported by Lusseau [3] pro- vides a natural example where communities vary in size. In this network, two dolphins have a link with each other if they are observed together more often than expected by chance. The original t</context>
+<context position="28315" citStr="[3]" startWordPosition="5381" endWordPosition="5381">in the definition of Q and this may cause problem in some networks [17, 18]. Such networks include those whose communities vary in size and degree sequence. Dolphin social network reported by Lusseau [3] pro- vides a natural example where communities vary in size. In this network, two dolphins have a link with each other if they are observed together more often than expected by chance. The original t</context>
+</contexts>
+<marker>[3]</marker>
+<rawString>D. Lusseau, K. Schneider, O. J. Boisseau, P. Haase, E. Slooten, and S. M. Dawson, Behavioral Ecology and Sociobiology 54, 396 (2003).</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>W W Zachary</author>
+</authors>
+<date>1977</date>
+<journal>Journal of Anthropological Research</journal>
+<volume>33</volume>
+<pages>452</pages>
+<contexts>
+<context position="1348" citStr="[4]" startWordPosition="216" endWordPosition="216">nodes denote entities and links denote existing relation between nodes, such systems may include the web networks [1], the biological networks [2], ecological web [3] and social organization networks [4]. Many interesting properties have also been identified in these networks such as small world[5] and power law distribution [6], one property that attracts much attention is the network community stru</context>
+<context position="15810" citStr="[4]" startWordPosition="2893" endWordPosition="2893">lection results are robust to the choice of ǫ ranging from 1/n to 1/(7n). III. EXPERIMENT A. Zachary Club Network The famous zachary club network is about acquaintance relationship between 34 members [4]. The club splits to 2 parts due an internal dispute so it naturally has community structure. By setting c = 2, we run our algorithm and get exactly the original 2 communities, see FIG 2. Node color i</context>
+<context position="20427" citStr="[4]" startWordPosition="3714" endWordPosition="3714">lection results are robust to the choice of ǫ ranging from 1/n to 1/(7n). III. EXPERIMENT A. Zachary Club Network The famous zachary club network is about acquaintance relationship between 34 members [4]. The club splits to 2 parts due an internal dispute so it naturally has community structure. By setting c = 2, we run our algorithm and get exactly the original 2 communities, see FIG 2. Node color i</context>
+</contexts>
+<marker>[4]</marker>
+<rawString>W. W. Zachary, Journal of Anthropological Research 33, 452 (1977).</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>D S Watts</author>
+</authors>
+<date>1998</date>
+<journal>Nature</journal>
+<volume>4</volume>
+<pages>409</pages>
+<contexts>
+<context position="1444" citStr="[5]" startWordPosition="230" endWordPosition="230"> the web networks [1], the biological networks [2], ecological web [3] and social organization networks [4]. Many interesting properties have also been identified in these networks such as small world[5] and power law distribution [6], one property that attracts much attention is the network community structure, which is the phenomenon that nodes within the same community are more densely connected t</context>
+</contexts>
+<marker>[5]</marker>
+<rawString>D. S. Watts, Nature 4, 409 (1998).</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>B A-L</author>
+<author>A R</author>
+</authors>
+<date>1999</date>
+<journal>Science</journal>
+<volume>286</volume>
+<contexts>
+<context position="1475" citStr="[6]" startWordPosition="235" endWordPosition="235">ogical networks [2], ecological web [3] and social organization networks [4]. Many interesting properties have also been identified in these networks such as small world[5] and power law distribution [6], one property that attracts much attention is the network community structure, which is the phenomenon that nodes within the same community are more densely connected than those in different communit</context>
+</contexts>
+<marker>[6]</marker>
+<rawString>B. A-L and A. R, Science 286, 509 (1999).</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>M Girvan</author>
+<author>M E J Newman</author>
+<author>Proc</author>
+</authors>
+<date>2002</date>
+<journal>Natl. Acad. Sci. USA</journal>
+<volume>99</volume>
+<pages>7821</pages>
+<contexts>
+<context position="1682" citStr="[7]" startWordPosition="267" endWordPosition="267">e property that attracts much attention is the network community structure, which is the phenomenon that nodes within the same community are more densely connected than those in different communities [7]. It is important in the sense that we can get a better understanding about the network structure. This problem has been studied by researchers from different perspectives. Earlier approaches for iden</context>
+<context position="2373" citStr="[7, 8, 9, 10, 11]" startWordPosition="373" endWordPosition="377">ch split the whole network into 2 communities recursively until every node was a community. These algorithms usually needed a measure to evaluate the closeness or dissimilarity between two nodes, see [7, 8, 9, 10, 11]. An important modularity measure for evaluating the goodness of community structure was proposed by Newman [12] and several algorithms worked by maximizing it [13, 14, 15, 16]. This measure was very </context>
+<context position="16925" citStr="[7]" startWordPosition="3080" endWordPosition="3080">can College Football Team Network The second network investigated is the college football network which represents the game schedule of the 2000 season of Division I of the US college football league [7]. The nodes in the network represent the 115 teams, while the links represent 613 games played. The teams are divided into 12 conferences and generally games are more 3Parameters π, β are initialized </context>
+<context position="21542" citStr="[7]" startWordPosition="3901" endWordPosition="3901">can College Football Team Network The second network investigated is the college football network which represents the game schedule of the 2000 season of Division I of the US college football league [7]. The nodes in the network represent the 115 teams, while the links represent 613 games played. The teams are divided into 12 conferences and generally games are more 4TABLE I: Result on zachary netwo</context>
+<context position="25063" citStr="[7]" startWordPosition="4665" endWordPosition="4665"> original two communities have different sizes, with one containing 22 dolphins and the other 40. Setting c = 2, SPAEM only misclassifies one node and gets exactly the same result as the GN algorithm [7] and the information based algorithm [18], however, the modularity based method [15] gets different result, as depicted in FIG 5. It is shown that the modularity algorithm works well for networks whos</context>
+</contexts>
+<marker>[7]</marker>
+<rawString>M. Girvan and M. E. J. Newman, Proc. Natl. Acad. Sci. USA 99, 7821 (2002).</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>F Luo</author>
+<author>Y Yang</author>
+<author>C-F Chen</author>
+<author>R Chang</author>
+<author>J Zhou</author>
+<author>R H Scheuermann</author>
+</authors>
+<date>2007</date>
+<journal>Bioinformatics</journal>
+<volume>23</volume>
+<pages>207</pages>
+<marker>[8]</marker>
+<rawString>F. Luo, Y. Yang, C.-F. Chen, R. Chang, J. Zhou, and R. H. Scheuermann, Bioinformatics 23, 207 (2007).</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>H Zhou</author>
+</authors>
+<date>2003</date>
+<journal>Phys. Rev. E</journal>
+<volume>67</volume>
+<pages>041908</pages>
+<contexts>
+<context position="2373" citStr="[7, 8, 9, 10, 11]" startWordPosition="373" endWordPosition="377">ch split the whole network into 2 communities recursively until every node was a community. These algorithms usually needed a measure to evaluate the closeness or dissimilarity between two nodes, see [7, 8, 9, 10, 11]. An important modularity measure for evaluating the goodness of community structure was proposed by Newman [12] and several algorithms worked by maximizing it [13, 14, 15, 16]. This measure was very </context>
+</contexts>
+<marker>[9]</marker>
+<rawString>H. Zhou, Phys. Rev. E 67, 041908 (2003).</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>F Radicchi</author>
+<author>C Castellano</author>
+<author>F Cecconi</author>
+<author>V Loreto</author>
+<author>D Parisi</author>
+</authors>
+<date>2004</date>
+<journal>Proc. Natl. Acad. Sci. USA</journal>
+<volume>101</volume>
+<pages>2658</pages>
+<contexts>
+<context position="2373" citStr="[7, 8, 9, 10, 11]" startWordPosition="373" endWordPosition="377">ch split the whole network into 2 communities recursively until every node was a community. These algorithms usually needed a measure to evaluate the closeness or dissimilarity between two nodes, see [7, 8, 9, 10, 11]. An important modularity measure for evaluating the goodness of community structure was proposed by Newman [12] and several algorithms worked by maximizing it [13, 14, 15, 16]. This measure was very </context>
+</contexts>
+<marker>[10]</marker>
+<rawString>F. Radicchi, C. Castellano, F. Cecconi, V. Loreto, and D. Parisi, Proc. Natl. Acad. Sci. USA 101, 2658 (2004).</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>S Zhang</author>
+<author>X Ning</author>
+<author>X Zhang</author>
+</authors>
+<date>2007</date>
+<journal>Eur. Phys. J. B</journal>
+<volume>57</volume>
+<contexts>
+<context position="2373" citStr="[7, 8, 9, 10, 11]" startWordPosition="373" endWordPosition="377">ch split the whole network into 2 communities recursively until every node was a community. These algorithms usually needed a measure to evaluate the closeness or dissimilarity between two nodes, see [7, 8, 9, 10, 11]. An important modularity measure for evaluating the goodness of community structure was proposed by Newman [12] and several algorithms worked by maximizing it [13, 14, 15, 16]. This measure was very </context>
+</contexts>
+<marker>[11]</marker>
+<rawString>S. Zhang, X. Ning, and X. Zhang, Eur. Phys. J. B 57, 67 (2007).</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>M E J Newman</author>
+<author>M Girvan</author>
+</authors>
+<date>2004</date>
+<journal>Phys. Rev. E</journal>
+<volume>69</volume>
+<pages>026113</pages>
+<contexts>
+<context position="2485" citStr="[12]" startWordPosition="394" endWordPosition="394"> measure to evaluate the closeness or dissimilarity between two nodes, see [7, 8, 9, 10, 11]. An important modularity measure for evaluating the goodness of community structure was proposed by Newman [12] and several algorithms worked by maximizing it [13, 14, 15, 16]. This measure was very efficient in characterizing community structure for networks with balanced structure, however, the internal scal</context>
+<context position="24246" citStr="[12]" startWordPosition="4519" endWordPosition="4519">early not a community. other words, it can not tell whether a detected group is a community. C. Comparison With Other Methods A modularity measure Q = ∑c r=1( lrr l − (dr2l ) 2) is proposed by Newman [12], where lrr is the number of links in community r, dr is the total degree in community r, l is the total number of edges in the network . Good community structure usually indicates large value of Q. B</context>
+<context position="27890" citStr="[12]" startWordPosition="5303" endWordPosition="5303">early not a community. other words, it can not tell whether a detected group is a community. C. Comparison With Other Methods A modularity measure Q = ∑c r=1( lrr l − (dr2l ) 2) is proposed by Newman [12], where lrr is the number of links in community r, dr is the total degree in community r, l is the total number of edges in the network . Good community structure usually indicates large value of Q. B</context>
+<context position="30589" citStr="[12, 18, 22]" startWordPosition="5773" endWordPosition="5775">e sequence, nodes in one community have average 24 edges and in the other community have only 8 edges, setting kout = 2, 3, 4. Table II gives the results of our algorithm compared to other algorithms [12, 18, 22]. Note that the results of the information algorithm and the modularity algorithm are cited from [18] while results of the mixture model are calculated by the authors. We have to admit that the inform</context>
+<context position="31960" citStr="[12]" startWordPosition="6015" endWordPosition="6015">.85 0.97 Asymmetric 7 0.92 0.96 0.80 0.92 8 0.79 0.82 0.74 0.74 Link 2 0.98 1.00 1.00 0.99 Asymmetric 3 0.94 1.00 0.96 0.94 4 0.84 1.00 0.74 0.70 aInformation method in[18] bModularity based method in[12] cMixture model in [22] −→ LL becomes −→ LL = n∑ i=1 ∑ j:j∈N(i) ∑ r wi,jqij,r lnPr(ei,j ∈ r) (11) = n∑ i=1 ∑ j:j∈N(i) ∑ r wi,jqij,r ln(πrβr,iβr,j) The E-step is unchanged but M-step becomes πr = P i P</context>
+</contexts>
+<marker>[12]</marker>
+<rawString>M. E. J. Newman and M. Girvan, Phys. Rev. E 69, 026113 (2004).</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>M E J Newman</author>
+<author>Proc</author>
+</authors>
+<date>2006</date>
+<journal>Natl. Acad. Sci. USA</journal>
+<volume>103</volume>
+<pages>8577</pages>
+<marker>[13]</marker>
+<rawString>M. E. J. Newman, Proc. Natl. Acad. Sci. USA 103, 8577 (2006).</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>M E J Newman</author>
+</authors>
+<date>2006</date>
+<journal>Phys. Rev. E</journal>
+<volume>74</volume>
+<pages>036104</pages>
+<contexts>
+<context position="2549" citStr="[13, 14, 15, 16]" startWordPosition="402" endWordPosition="405">between two nodes, see [7, 8, 9, 10, 11]. An important modularity measure for evaluating the goodness of community structure was proposed by Newman [12] and several algorithms worked by maximizing it [13, 14, 15, 16]. This measure was very efficient in characterizing community structure for networks with balanced structure, however, the internal scale problem in its definition [17] made it fail to work well for u</context>
+</contexts>
+<marker>[14]</marker>
+<rawString>M. E. J. Newman, Phys. Rev. E 74, 036104 (2006).</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>S White</author>
+<author>P Smyth</author>
+</authors>
+<date>2005</date>
+<booktitle>in SIAM International Conference on Data Mining</booktitle>
+<contexts>
+<context position="2549" citStr="[13, 14, 15, 16]" startWordPosition="402" endWordPosition="405">between two nodes, see [7, 8, 9, 10, 11]. An important modularity measure for evaluating the goodness of community structure was proposed by Newman [12] and several algorithms worked by maximizing it [13, 14, 15, 16]. This measure was very efficient in characterizing community structure for networks with balanced structure, however, the internal scale problem in its definition [17] made it fail to work well for u</context>
+<context position="25147" citStr="[15]" startWordPosition="4678" endWordPosition="4678"> the other 40. Setting c = 2, SPAEM only misclassifies one node and gets exactly the same result as the GN algorithm [7] and the information based algorithm [18], however, the modularity based method [15] gets different result, as depicted in FIG 5. It is shown that the modularity algorithm works well for networks whose communities roughly have the same size and degree sequence, but may not provide ve</context>
+<context position="28791" citStr="[15]" startWordPosition="5462" endWordPosition="5462"> the other 40. Setting c = 2, SPAEM only misclassifies one node and gets exactly the same result as the GN algorithm [7] and the information based algorithm [18], however, the modularity based method [15] gets different result, as depicted in FIG 5. It is shown that the modularity algorithm works well for networks whose communities roughly have the same size and degree sequence, but may not provide ve</context>
+<context position="29552" citStr="[15]" startWordPosition="5591" endWordPosition="5591">fel zig FIG. 5: Dolphin network: Node shape denotes the real split. The grey line shows the result by SPAEM with only 1 mis- take, the left and right black line indicates the results of algorithms in [15]. petitive results when the communities differ in size and degree sequence [18]. To show the way SPAEM handles these situations, we conduct the same 3 sets of test as done in [18]: symmetric, node asy</context>
+<context position="34181" citStr="[15]" startWordPosition="6406" endWordPosition="6406">fel zig FIG. 5: Dolphin network: Node shape denotes the real split. The grey line shows the result by SPAEM with only 1 mis- take, the left and right black line indicates the results of algorithms in [15]. petitive results when the communities differ in size and degree sequence [18]. To show the way SPAEM handles these situations, we conduct the same 3 sets of test as done in [18]: symmetric, node asy</context>
+</contexts>
+<marker>[15]</marker>
+<rawString>S. White and P. Smyth, in SIAM International Conference on Data Mining 2005 (2005).</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>J Duch</author>
+<author>A Arenas</author>
+</authors>
+<date>2005</date>
+<journal>Phys. Rev. E</journal>
+<volume>72</volume>
+<pages>027104</pages>
+<marker>[16]</marker>
+<rawString>J. Duch and A. Arenas, Phys. Rev. E 72, 027104 (2005).</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>S Fortunato</author>
+<author>M Barthlemy</author>
+<author>Proc</author>
+</authors>
+<date>2007</date>
+<journal>Natl. Acad. Sci. USA</journal>
+<volume>104</volume>
+<contexts>
+<context position="2717" citStr="[17]" startWordPosition="430" endWordPosition="430">ed by maximizing it [13, 14, 15, 16]. This measure was very efficient in characterizing community structure for networks with balanced structure, however, the internal scale problem in its definition [17] made it fail to work well for unbalanced networks such as those whose communities varied in size and degree sequence. Quite recently, an infor∗Electronic address: renwei@amss.ac.cn mation based algor</context>
+<context position="24543" citStr="[17, 18]" startWordPosition="4577" endWordPosition="4578"> l is the total number of edges in the network . Good community structure usually indicates large value of Q. But there is a scale l in the definition of Q and this may cause problem in some networks [17, 18]. Such networks include those whose communities vary in size and degree sequence. Dolphin social network reported by Lusseau [3] pro- vides a natural example where communities vary in size. In this ne</context>
+<context position="28187" citStr="[17, 18]" startWordPosition="5361" endWordPosition="5362"> l is the total number of edges in the network . Good community structure usually indicates large value of Q. But there is a scale l in the definition of Q and this may cause problem in some networks [17, 18]. Such networks include those whose communities vary in size and degree sequence. Dolphin social network reported by Lusseau [3] pro- vides a natural example where communities vary in size. In this ne</context>
+</contexts>
+<marker>[17]</marker>
+<rawString>S. Fortunato and M. Barthlemy, Proc. Natl. Acad. Sci. USA 104, 36 (2007).</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>M Rosvall</author>
+<author>C T Bergstrom</author>
+<author>Proc</author>
+</authors>
+<date>2007</date>
+<journal>Natl. Acad. Sci. USA</journal>
+<volume>104</volume>
+<pages>7327</pages>
+<contexts>
+<context position="2936" citStr="[18]" startWordPosition="464" endWordPosition="464">o work well for unbalanced networks such as those whose communities varied in size and degree sequence. Quite recently, an infor∗Electronic address: renwei@amss.ac.cn mation based algorithm by Martin [18] could accurately resolve communities and in particular can to some extent get over the scale problem of modularity. Also, researchers [19] found that communities were overlapping rather than disjoint</context>
+<context position="24543" citStr="[17, 18]" startWordPosition="4577" endWordPosition="4578"> l is the total number of edges in the network . Good community structure usually indicates large value of Q. But there is a scale l in the definition of Q and this may cause problem in some networks [17, 18]. Such networks include those whose communities vary in size and degree sequence. Dolphin social network reported by Lusseau [3] pro- vides a natural example where communities vary in size. In this ne</context>
+<context position="25104" citStr="[18]" startWordPosition="4671" endWordPosition="4671"> sizes, with one containing 22 dolphins and the other 40. Setting c = 2, SPAEM only misclassifies one node and gets exactly the same result as the GN algorithm [7] and the information based algorithm [18], however, the modularity based method [15] gets different result, as depicted in FIG 5. It is shown that the modularity algorithm works well for networks whose communities roughly have the same size </context>
+<context position="28187" citStr="[17, 18]" startWordPosition="5361" endWordPosition="5362"> l is the total number of edges in the network . Good community structure usually indicates large value of Q. But there is a scale l in the definition of Q and this may cause problem in some networks [17, 18]. Such networks include those whose communities vary in size and degree sequence. Dolphin social network reported by Lusseau [3] pro- vides a natural example where communities vary in size. In this ne</context>
+<context position="28748" citStr="[18]" startWordPosition="5455" endWordPosition="5455"> sizes, with one containing 22 dolphins and the other 40. Setting c = 2, SPAEM only misclassifies one node and gets exactly the same result as the GN algorithm [7] and the information based algorithm [18], however, the modularity based method [15] gets different result, as depicted in FIG 5. It is shown that the modularity algorithm works well for networks whose communities roughly have the same size </context>
+</contexts>
+<marker>[18]</marker>
+<rawString>M. Rosvall and C. T. Bergstrom, Proc. Natl. Acad. Sci. USA 104, 7327 (2007).</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>G Palla</author>
+<author>I Dernyi</author>
+<author>I Farkas</author>
+<author>T Vicsek</author>
+</authors>
+<date>2005</date>
+<journal>Nature</journal>
+<volume>435</volume>
+<marker>[19]</marker>
+<rawString>G. Palla, I. Dernyi, I. Farkas, and T. Vicsek, Nature 435, 814 (2005).</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>S Zhang</author>
+<author>R Wang</author>
+<author>X Zhang</author>
+</authors>
+<title>Physica A: Statistical Mechanics and its Applications 374,</title>
+<date>2006</date>
+<pages>483</pages>
+<contexts>
+<context position="3172" citStr="[18, 20, 21]" startWordPosition="496" endWordPosition="498">e communities and in particular can to some extent get over the scale problem of modularity. Also, researchers [19] found that communities were overlapping rather than disjoint, subsequent algorithms [18, 20, 21] were designed to deal with overlapping communities. A mixture model by Newman [22] could automatically detect patterns inside a network, meanwhile, it was able to detect overlapping nodes as a byprod</context>
+</contexts>
+<marker>[20]</marker>
+<rawString>S. Zhang, R. Wang, and X. Zhang, Physica A: Statistical Mechanics and its Applications 374, 483 (2006).</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>S Zhang</author>
+<author>R Wang</author>
+<author>X Zhang</author>
+</authors>
+<date>2007</date>
+<journal>Phys. Rev. E</journal>
+<volume>76</volume>
+<pages>046103</pages>
+<contexts>
+<context position="3172" citStr="[18, 20, 21]" startWordPosition="496" endWordPosition="498">e communities and in particular can to some extent get over the scale problem of modularity. Also, researchers [19] found that communities were overlapping rather than disjoint, subsequent algorithms [18, 20, 21] were designed to deal with overlapping communities. A mixture model by Newman [22] could automatically detect patterns inside a network, meanwhile, it was able to detect overlapping nodes as a byprod</context>
+</contexts>
+<marker>[21]</marker>
+<rawString>S. Zhang, R. Wang, and X. Zhang, Phys. Rev. E 76, 046103 (2007).</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>M E J Newman</author>
+<author>E A Leicht</author>
+<author>Proc</author>
+</authors>
+<date>2007</date>
+<journal>Natl. Acad. Sci. USA</journal>
+<volume>104</volume>
+<pages>9564</pages>
+<contexts>
+<context position="3255" citStr="[22]" startWordPosition="512" endWordPosition="512">. Also, researchers [19] found that communities were overlapping rather than disjoint, subsequent algorithms [18, 20, 21] were designed to deal with overlapping communities. A mixture model by Newman [22] could automatically detect patterns inside a network, meanwhile, it was able to detect overlapping nodes as a byproduct. All these state-of-art algorithms motivate us to treat the community detection</context>
+<context position="16479" citStr="[22]" startWordPosition="3011" endWordPosition="3011">nt to each node so is capa- ble of detecting overlapping nodes, see Table I. To compare the ability in detecting overlapping nodes, we also include qir used to assign communities in the mixture model [22]. Clearly, nodes 1,2,33,34 are not overlapping nodes, but node 9 is. The mixture model also can detect this, however, by checking corresponding probabilities, see Table I, SPAEM shows more accuracy re</context>
+<context position="21096" citStr="[22]" startWordPosition="3832" endWordPosition="3832">nt to each node so is capa- ble of detecting overlapping nodes, see Table I. To compare the ability in detecting overlapping nodes, we also include qir used to assign communities in the mixture model [22]. Clearly, nodes 1,2,33,34 are not overlapping nodes, but node 9 is. The mixture model also can detect this, however, by checking corresponding probabilities, see Table I, SPAEM shows more accuracy re</context>
+<context position="21895" citStr="[22]" startWordPosition="3964" endWordPosition="3964">ly games are more 4TABLE I: Result on zachary network. ur,i is calculated by ur,i = pir ∗ βr,i, which is interpreted as the preference of node i belonging to community r. The qirs in the mixture mode [22] are also included, to facilitate comparison, we normalize us,i so they add up to 1. Node ID u1,i u2,i u1,i u1,i+u2,i qi1 a 1 3.30E-05 0.1025 0.00 0.00 2 4.86E-06 0.0577 0.00 0.00 9 0.0219 0.0101 0.69</context>
+<context position="22862" citStr="[22]" startWordPosition="4201" endWordPosition="4201">g to the same community detected by SPAEM are placed adjacently. frequent between members of the same conference than between teams of different conferences. The result of SPAEM and the mixture model [22] is depicted in FIG 3 and FIG 4, respectively. SPAEM basically uncovers the original community structure. However, the mixture model gets a very different result, see FIG 4. This is because the group </context>
+</contexts>
+<marker>[22]</marker>
+<rawString>M. E. J. Newman and E. A. Leicht, Proc. Natl. Acad. Sci. USA 104, 9564 (2007).</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>Learn</author>
+</authors>
+<date>2001</date>
+<journal>ISSN</journal>
+<volume>42</volume>
+<pages>6125</pages>
+<marker>[23]</marker>
+<rawString>T. Hofmann, Mach. Learn. 42, 177 (2001), ISSN 0885- 6125.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>A Dempster</author>
+<author>N Laird</author>
+<author>D Rubin</author>
+</authors>
+<date>1977</date>
+<journal>Journal of the Royal Statistical Society, Series B</journal>
+<volume>39</volume>
+<contexts>
+<context position="6337" citStr="[24]" startWordPosition="1082" endWordPosition="1082">ms and is difficult to optimize but can be optimized easily by ExpectationMaximization algorithm. A. The EM Formula The EM algorithm is proposed to maximize probability that contains latent variables [24], it computes the posterior probability of the latent variables under the observed data and currently estimated parameters in the E-step and updates parameters with these posterior probabilities in th</context>
+<context position="10145" citStr="[24]" startWordPosition="1823" endWordPosition="1823">ms and is difficult to optimize but can be optimized easily by ExpectationMaximization algorithm. A. The EM Formula The EM algorithm is proposed to maximize probability that contains latent variables [24], it computes the posterior probability of the latent variables under the observed data and currently estimated parameters in the E-step and updates parameters with these posterior probabilities in th</context>
+</contexts>
+<marker>[24]</marker>
+<rawString>A. Dempster, N. Laird, and D. Rubin, Journal of the Royal Statistical Society, Series B 39, 1 (1977).</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>J Rissanen</author>
+</authors>
+<date>1978</date>
+<journal>Automatica</journal>
+<volume>14</volume>
+<pages>465</pages>
+<contexts>
+<context position="13491" citStr="[25]" startWordPosition="2453" endWordPosition="2453">rded as prior knowledge. However, the determination of c is a non-trivial task and is difficult when no prior knowledge can be obtained. We try to handle it using Minimum Description Length principle [25]. In general, LL in Eq(1) increases as c increases, meanwhile, an extra cost has to be paid for due to the increase in the number of parametersK = (c−1)+c(n−1). There should be some balance between LL</context>
+<context position="18108" citStr="[25]" startWordPosition="3274" endWordPosition="3274">rded as prior knowledge. However, the determination of c is a non-trivial task and is difficult when no prior knowledge can be obtained. We try to handle it using Minimum Description Length principle [25]. In general, LL in Eq(1) increases as c increases, meanwhile, an extra cost has to be paid for due to the increase in the number of parametersK = (c−1)+c(n−1). There should be some balance between LL</context>
+</contexts>
+<marker>[25]</marker>
+<rawString>J. Rissanen, Automatica 14, 465 (1978).</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>E Ravasz</author>
+<author>A L Somera</author>
+<author>D A Mongru</author>
+<author>Z N Oltvai</author>
+<author>A L Barabasi</author>
+</authors>
+<date>2002</date>
+<journal>Science</journal>
+<volume>297</volume>
+<pages>1551</pages>
+<contexts>
+<context position="14866" citStr="[26]" startWordPosition="2710" endWordPosition="2710">cky but very important in Eq(9). Smaller ǫ may cause longer code for parameters and hence will always prefer models with small c. In fact, it’s shown that networks are organized in a hierarchical way [26], the choice ǫ gives a lever for viewing networks in different resolutions. It’s intuitively clear that ǫ should be on the scale of 1/n due to the normalization condition 1 2 3 4 5 6 7 8 9 10 11 12 13</context>
+<context position="19483" citStr="[26]" startWordPosition="3531" endWordPosition="3531">cky but very important in Eq(9). Smaller ǫ may cause longer code for parameters and hence will always prefer models with small c. In fact, it’s shown that networks are organized in a hierarchical way [26], the choice ǫ gives a lever for viewing networks in different resolutions. It’s intuitively clear that ǫ should be on the scale of 1/n due to the normalization condition 1 2 3 4 5 6 7 8 9 10 11 12 13</context>
+<context position="41695" citStr="[26]" startWordPosition="7698" endWordPosition="7698">d large ǫ tends to identify large number of communities. In fact, it’s shown that complex networks may be organized in the hierarchical structure which allows us to view them in different resolutions [26]. The accuracy ǫ indeed provides the capacity to detect communities in different resolutions. However, it is expected that for networks with welldefined community structure, the model selection crite-</context>
+<context position="45513" citStr="[26]" startWordPosition="8331" endWordPosition="8331">d large ǫ tends to identify large number of communities. In fact, it’s shown that complex networks may be organized in the hierarchical structure which allows us to view them in different resolutions [26]. The accuracy ǫ indeed provides the capacity to detect communities in different resolutions. However, it is expected that for networks with welldefined community structure, the model selection crite-</context>
+</contexts>
+<marker>[26]</marker>
+<rawString>E. Ravasz, A. L. Somera, D. A. Mongru, Z. N. Oltvai, and A. L. Barabasi, Science 297, 1551 (2002).</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>N A Alves</author>
+</authors>
+<date>2007</date>
+<journal>Phys. Rev. E</journal>
+<volume>76</volume>
+<pages>036101</pages>
+<contexts>
+<context position="32462" citStr="[27]" startWordPosition="6105" endWordPosition="6105">qkj,r Intuitively the M-step formula is reasonable since links with greater weights contribute more to corresponding parameters. To test SPAEM on weighted networks, simulation test is done as that in [27]. This set of test is based on the above symmetric test when kout = 8: For each of the 100 networks in the Symmetric Test with kout = 8, the weight of edges within a certain community is raised to w =</context>
+<context position="32939" citStr="[27]" startWordPosition="6195" endWordPosition="6195">is unchanged(with weight 1). As weight w increases from 1.4 to 2, models should improve their power in detecting community structure. Results of SPAEM are shown in Table III as well as the results in [27] for comparison(note that the results in [27] are directly cited rather than recalculated). SPAEM generally outperforms the model in [27]. The limitation with the above simulation test is that any alg</context>
+<context position="37091" citStr="[27]" startWordPosition="6920" endWordPosition="6920">qkj,r Intuitively the M-step formula is reasonable since links with greater weights contribute more to corresponding parameters. To test SPAEM on weighted networks, simulation test is done as that in [27]. This set of test is based on the above symmetric test when kout = 8: For each of the 100 networks in the Symmetric Test with kout = 8, the weight of edges within a certain community is raised to w =</context>
+<context position="37568" citStr="[27]" startWordPosition="7010" endWordPosition="7010">is unchanged(with weight 1). As weight w increases from 1.4 to 2, models should improve their power in detecting community structure. Results of SPAEM are shown in Table III as well as the results in [27] for comparison(note that the results in [27] are directly cited rather than recalculated). SPAEM generally outperforms the model in [27]. The limitation with the above simulation test is that any alg</context>
+<context position="38318" citStr="[27]" startWordPosition="7137" endWordPosition="7137"> to 32 be in group 2. Weight of edges inside each group is raised to 1.5 with probability pweight but weight of edges running between groups 6TABLE III: Benchmark test on weighted network designed by [27]. There are 4 communities each with 32 nodes in the network with kout = 8. As w increase from 1.4 to 2, both methods respond positively but SPAEM gets better results. SPAEM Markov a w = 1.4 0.96 0.89 </context>
+</contexts>
+<marker>[27]</marker>
+<rawString>N. A. Alves, Phys. Rev. E 76, 036101 (2007).</rawString>
+</citation>
+</citationList>
+</algorithm>
+</algorithms>
