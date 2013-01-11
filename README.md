@@ -15,6 +15,7 @@ The java code is responsible for converting .pdf files to txt which is used by t
 ## Parscit code
 
 Simple usage is:
+
 	citeExtract.pl [-m mode] [-i <inputType>] <filename> [outfile]
 
 Please read the documentation on the [parscit page](http://aye.comp.nus.edu.sg/parsCit/) to get full information on usage.
