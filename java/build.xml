@@ -1,0 +1,112 @@
+<?xml version="1.0"?>
+<project name="PDFconverter" default="compile" basedir=".">
+	
+<!-- ~~~~~ Properties, Paths, etc ~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+	
+	<property environment="env" />
+	
+	<property name="src"    value="./src" />
+	<property name="build"  value="./bin" />
+	<property name="lib"    value="./lib" />
+	<property name="doc"    value="./javadoc" />
+	
+	<path id="compile.all.classpath">
+		<fileset dir="${lib}">
+			<include name="commons-logging-1.1.1.jar"/>
+			<include name="fontbox-1.7.1.jar"/>
+			<include name="pdfbox-1.7.1.jar"/>
+			<include name="PDFTextStream.jar"/>
+			<include name="bcprov-jdk15on-147.jar"/>
+		</fileset>
+	</path>
+		
+	
+<!-- ~~~~~ Init build task ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+
+	<!-- Create the build directory for compiled class files -->
+	<target name="init">
+		<tstamp/>
+		<mkdir dir="${build}"/>
+		<mkdir dir="${lib}"/>
+	</target>
+	
+	
+<!-- ~~~~~ Java build tasks ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+	
+	<!-- Compile the Java code. -->
+	<target name="compile" depends="init">
+		<javac srcdir="${src}" destdir="${build}" 
+			classpathref="compile.all.classpath" debug="on" target="1.7" encoding="utf8" sourcepath="">
+			<!-- We nullify the sourcepath in order to disable Ant's usual resolution mechanism. This makes it an error for our basic code to call into code that has external dependencies, rather than auto-including those files and then having a classpath error. -->
+			<include name="**/*.java"/>
+			
+			<!-- This should be on, so people see it.
+				But it can be quite verbose...
+			<compilerarg value="-deprecation"/>
+			-->
+		</javac>
+		
+	</target>
+	
+	<!-- Create a JAR file -->
+	
+	<target name="jar" depends="compile">
+		<jar destfile="PDFConverter.jar">
+			<fileset dir="${build}">
+				<include name="**/*.class"/>
+			</fileset>
+			<fileset dir="${src}">
+				<include name="**/*.java"/>
+			</fileset>
+				<manifest>
+				  <attribute name="Built-By" value="${user.name}"/>
+				  <attribute name="Main-Class" value="nlputils.PDFParser"/>
+				  <attribute name="Implementation-Version" value="${DSTAMP}-${TSTAMP}"/>   
+				  <attribute name="Built-Date" value="${TODAY}"/>
+				  <attribute name="Class-Path" value="lib/commons-logging-1.1.1.jar lib/fontbox-1.7.1.jar lib/pdfbox-1.7.1.jar lib/PDFTextStream.jar lib/bcprov-jdk15on-147.jar" />
+				</manifest>
+		</jar>
+	</target>
+
+	<!-- Create a JAR file of the source code -->
+	<target name="source-jar">
+		<jar destfile="${build}/rera-src.jar">
+			<fileset dir="${src}">
+				<include name="**/*.java"/>
+			</fileset>
+		</jar>
+	</target>
+	
+	
+<!-- ~~~~~ Cleaning tasks ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+	
+	<!-- Delete the compiled files -->
+	<target name="clean">
+		<delete verbose="true" quiet="true">
+			<fileset dir="${build}">
+				<include name="**/*.class"/>
+			</fileset>
+		</delete>
+	</target>
+	
+	
+<!-- ~~~~~ Javadoc ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+	
+	<!-- Compile the Javadocs into web pages -->
+	<target name="javadoc">
+		<mkdir dir="${doc}"/>
+		<javadoc packagenames="ims.*"
+			classpath="${cli}"
+        	sourcepath="${src}"
+			destdir="${doc}"
+			author="true"
+			version="true"
+			charset="utf-8"
+			overview="src/overview.html"
+		>
+			<link href="http://java.sun.com/j2se/1.5.0/docs/api" />
+			<link href="http://commons.apache.org/cli/api-release" />
+		</javadoc>
+	</target>
+	
+</project>
