@@ -21,6 +21,22 @@ In case you have ant in your computer, it should make PDFConverter.jar file, whi
 You can provide 1 or 2 arguments. The first argument is for an input file, or a folder, the second argument is for the output file or folder.
 In case you not provide the second argument, the converter will put the files next to the original one with an additional ".txt" extension.
 
+After you compiled the code with "ant jar" you can convert a single pdf like this:
+
+	java -jar PDFConverter.jar document.pdf output.txt
+	
+or
+
+	java -jar PDFConverter.jar document.pdf
+	
+or
+
+	java -jar PDFConverter.jar pdfs/ txts/
+	
+or 
+
+	java -jar PDFConverter.jar pdfs/
+
 The libraries used by java code is listed here:
 - [bcprov-jdk15on-147.jar](http://www.bouncycastle.org/latest_releases.html)
 - [commons-logging-1.1.1.jar](http://commons.apache.org/logging/)
